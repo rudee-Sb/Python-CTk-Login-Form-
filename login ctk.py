@@ -111,9 +111,9 @@ def load_info() :
 
 # function to send verification email
 def send_notification():
-            reciever_email = 'shashwat24baheti@gmail.com'
-            sender_email = 'loginn.verfication@gmail.com'
-            password = 'pkca gjfz fpwh acdw'
+            reciever_email = "" # email id of user/receiver
+            sender_email = "" # email id of company/sender
+            password = "" # app password of your sender email id
 
             # Email configuration
             msg = MIMEMultipart()
